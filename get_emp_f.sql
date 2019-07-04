@@ -4,7 +4,7 @@ CREATE OR REPLACE FUNCTION get_emp_f
 IS
     v_employee_name VARCHAR2(50);
 BEGIN
-    SELECT last_name || ',' || first_name
+    SELECT last_name || ', ' || first_name
     INTO   v_employee_name
     FROM   employees
     WHERE  employee_id = p_employee_id
