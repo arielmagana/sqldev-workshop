@@ -4,4 +4,5 @@ CREATE TABLE employees
 , last_name   VARCHAR2(25)
 , hire_date   DATE
 , salary      NUMBER
+, email       VARCHAR2(25)
 );
