@@ -6,4 +6,5 @@ CREATE TABLE employees
 , hire_date   DATE
 , salary      NUMBER
 , email       VARCHAR2(25)
+, commisions_pct NUMBER
 );
